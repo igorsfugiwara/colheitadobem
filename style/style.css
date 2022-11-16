@@ -1,0 +1,227 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 67px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header__menu__item {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__menu__item.login {
+    background-color: black;
+    color: #FFF;
+    margin: 5px;
+    border-radius: 5px;
+    width: 104px;
+    height: 43px;
+    justify-content: center;
+
+}
+
+/* HERO */
+.hero__wrapper {
+    background-image: url('../assets/bg_image.png');
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-size: 64px;
+    width: 640px;
+    color: #FFF;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.hero button {
+    font-size: 16px;
+    width: 164px;
+    height: 51px;
+    font-family: 'Roboto';
+    border-radius: 4px;
+}
+
+.hero .hero__buttons {
+    display: flex;
+}
+
+.hero button.play_video {
+    background: none;
+    color: #FFF;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+.hero__wrapper {
+    padding: 100px;
+}
+
+.hero__line {
+    display: flex;
+    color: #FFF;
+}
+
+/* SOBRE NÓS  e APLICATIVO*/
+.sobre-nos__wrapper,
+.aplicativo__wrapper, .aulas__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 100px;
+    align-items: center;
+}
+
+.sobre-nos,
+.aplicativo, .aulas {
+    display: flex;
+    height: fit-content;
+    width: 60%;
+}
+
+.sobre-nos__textos h3,
+.aplicativo__textos h3,
+.aulas__textos h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.sobre-nos__textos h1,
+.aplicativo__textos h1,
+.aulas__textos h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.sobre-nos__textos p,
+.aplicativo__textos p,
+.aulas__textos p {
+    font-size: 16px;
+}
+
+.sobre-nos__textos button,
+.aulas__textos button {
+    background: #70C174;
+    color: #FFF;
+    border: none;
+    width: 149px;
+    height: 51px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 48px;
+}
+
+.sobre-nos__imagem, .aplicativo__imagem, .aulas__imagem{
+    display: flex;
+}
+.sobre-nos__imagem img, .aplicativo__imagem img{
+    width: 100%;
+}
+
+.aplicativo__wrapper {
+    background-color: #EFF7F2;
+    ;
+}
+
+.aplicativo__textos ul {
+    border-left: 2px solid grey;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.aplicativo__textos img {
+    color: #FFF;
+    background-color: #83D187;
+    height: 18px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.aplicativo__textos li {
+    display: flex;
+    gap: 10px;
+}
+
+.aplicativo__textos__item h4 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.aplicativo__textos__item span {
+    font-size: 16px;
+}
+.aplicativo__textos h1{
+    margin-bottom: 74px;
+}
+.aplicativo__textos p{
+    margin-bottom: 32px;
+}
+
+.respiro {
+    margin-right: 4px;
+}
+
+.aulas__textos ul{
+    display: flex;
+    gap: 10px;
+}
+.aulas__textos li {
+    color: #FFF;
+}
+.aula1{
+    background-image: url(../assets/aula1.png);
+}
+.aula2{
+    background-image: url(../assets/aula2.png);
+}
+.aula3{
+    background-image: url(../assets/aula3.png);
+}
+
+.aulas{
+    width: 90%;
+}
+.aulas__textos__item{
+    padding: 50px 40px 20px;
+    border-radius: 5px;
+}
+.aulas__textos__item h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.aulas__textos__item p{
+    font-size: 16px;
+}
