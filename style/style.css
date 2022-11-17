@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.hamburguer,
+.parallax_sobre-nos {
+    display: none;
+}
+
 header {
     display: flex;
     width: 90%;
@@ -471,7 +476,7 @@ header {
     font-weight: 700;
 }
 
-.embreve hr{
+.embreve hr {
     margin: 0;
 }
 

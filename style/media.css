@@ -1,0 +1,262 @@
+/* celular */
+@media (max-width: 576px) {
+    .hamburguer {
+        display: block;
+    }
+
+    .hero__wrapper {
+        padding: 2em 1em;
+        height: 400px;
+    }
+
+    .hero h1,
+    .sobre-nos__textos h1,
+    .aplicativo__textos h1,
+    .aulas__textos h1,
+    .dashboard__textos h1,
+    .planos h1,
+    .noticias__header h1 {
+        font-size: 24px;
+        width: 70%;
+        margin-bottom: 1em;
+    }
+
+    .hero h1 {
+        margin-bottom: 3em;
+    }
+
+    .hero__buttons {
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .play_video img {
+        width: fit-content;
+    }
+
+    .hero__line {
+        width: 70%;
+    }
+
+    .hero__line p,
+    .aplicativo__textos p,
+    .aulas__textos p,
+    .dashboard__textos p {
+        font-size: 12px;
+    }
+
+    /* SOBRE NOS*/
+    .sobre-nos__wrapper {
+        padding: 2em 0;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .respiro hr {
+        width: 2em;
+    }
+
+    .sobre-nos {
+        width: 90%;
+        margin: 0;
+    }
+
+    .sobre-nos__textos h1 {
+        margin: 0 0 1em;
+        width: fit-content;
+    }
+
+    .sobre-nos__textos p {
+        font-size: 14px;
+    }
+
+    /* APLICATIVO */
+
+    .aplicativo__wrapper {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url('../assets/fotos_aplicativo.png');
+        padding: 1em;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .aplicativo {
+        width: fit-content;
+        color: #FFF;
+    }
+
+    .aplicativo .respiro {
+        display: none;
+    }
+
+    .aplicativo__textos ul li img {
+        width: fit-content;
+    }
+
+    .aplicativo__textos__item h4,
+    .aulas__textos__item h4 {
+        font-size: 18px;
+    }
+
+    .aplicativo__textos__item span,
+    .aulas__textos__item p {
+        font-size: 14px;
+    }
+
+    .aplicativo__imagem img {
+        display: none;
+    }
+
+    /* AULAS */
+    .aulas__wrapper {
+        margin: 0;
+        padding: 1em 0;
+        justify-content: flex-start;
+    }
+
+    .aulas__textos ul {
+        flex-direction: column;
+    }
+
+    .aulas__textos__item {
+        padding: 1em;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .aulas__textos__item button {
+        margin: 0;
+        width: fit-content;
+        height: fit-content;
+        padding: 0.5em 1em;
+
+    }
+
+    /* DASHBOARD */
+    .dashboard,
+    .dashboard__textos ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .dashboard__textos ul {
+        gap: 0.5em;
+    }
+
+    .dashboard__textos__item {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .dashboard__imagem {
+        width: 70%;
+    }
+
+    .planos__wrapper {
+        padding: 1em 0;
+    }
+
+    .planos {
+        height: fit-content;
+        padding: 1.5em 0;
+    }
+
+    .planos__botoes {
+        flex-direction: column;
+        gap: 0
+    }
+
+    .planos__botoes button {
+        margin-top: 1em;
+    }
+
+    /* NOTICIAS */
+    .noticias__header {
+        margin: 1em 0;
+    }
+
+    /* EVENTOS */
+    .eventos__cards {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+.evento__cards__item {
+    width: fit-content;
+}
+
+.card__data__dia {
+    font-size: 28px;
+}
+
+.card__evento h2 {
+    font-size: 18px;
+}
+
+/* FOOTER */
+.footer {
+    padding: 1em;
+    flex-direction: column;
+}
+
+.logo img {
+    margin-bottom: 1em;
+}
+
+.mapa {
+    gap: 1em;
+}
+
+.mapa ul li {
+    font-size: 12px
+}
+
+.newsletter {
+    width: 100%;
+}
+
+.newsletter h2 {
+    width: fit-content;
+    font-size: 24px;
+}
+
+.input input {
+    width: 100%;
+    padding: 0 1em;
+    font-size: 14px;
+}
+
+.input button {
+    width: 40%;
+}
+}
+
+/* celular */
+@media (max-width: 767px) {
+
+    .header__menu,
+    .sobre-nos__imagem {
+        display: none;
+    }
+
+    .hamburguer,
+    .parallax_sobre-nos {
+        display: block;
+    }
+
+}
+
+/* celular */
+@media (max-width: 991px) {
+    .header .logo {
+        width: 120px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/* celular */
+@media (max-width: 1199px) {}
