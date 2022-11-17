@@ -86,7 +86,7 @@
     }
 
     .eventos hr,
-    noticias__header hr {
+    .noticias__header hr {
         width: 100px;
     }
     .newsletter h2{
