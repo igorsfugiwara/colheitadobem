@@ -433,6 +433,8 @@ header {
 .eventos__cards {
     display: flex;
     justify-content: space-evenly;
+    gap: 1em;
+    margin: 1em;
 }
 
 .evento__cards__item {
@@ -503,6 +505,7 @@ header {
 
 .mapa ul li {
     margin-bottom: 2em;
+    width: 80px;
 }
 
 .newsletter {
