@@ -33,7 +33,7 @@ header {
     align-items: center;
 }
 
-.header__menu__item.login {
+.header__menu__item.login a {
     background-color: black;
     color: #FFF;
     margin: 5px;
@@ -41,6 +41,7 @@ header {
     width: 104px;
     height: 43px;
     justify-content: center;
+    align-items: center;
 
 }
 
@@ -414,9 +415,12 @@ header {
     width: 302px;
 }
 
-.noticias__thumb ul li a {
+.noticias__thumb ul li a, .sobre-nos__textos a, .header__menu a{
     text-decoration: none;
     color: #000;
+}
+.header__menu a{
+    display: flex;
 }
 
 .noticias__thumb ul li a h2 {

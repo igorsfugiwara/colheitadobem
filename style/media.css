@@ -89,7 +89,8 @@
     .noticias__header hr {
         width: 100px;
     }
-    .newsletter h2{
+
+    .newsletter h2 {
         font-size: 28px;
     }
 
@@ -101,33 +102,81 @@
 
 /* tablet */
 @media (max-width: 767px) {
+    .header__menu__wrapper{
+        display: block;
+    }
     .header__menu__item {
         font-size: 12px;
     }
 
-    .header__menu,
     .sobre-nos__imagem {
         display: none;
     }
 
+    .header__menu {
+        position: fixed;
+        transform: translateY(-100%);
+        transition: transform 0.2s;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        background-color:rgba(0, 0, 0, 0.9);
+        padding-top: 4rem;
+    }
+    .header__menu__item a{
+        color: #FFF;
+        font-size: 24px;
+    }
+    .header__menu__item.login a{
+        background: none;
+    }
+
     .hamburguer {
         display: block;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    .hamburguer button {
+        border: none;
+        background: none;
+    }
+
+    .closeIcon {
+        display: none;
+        color: #FFF;
+    }
+
+    .showMenu {
+        transform: translateY(0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .aulas__textos ul {
         flex-direction: column;
     }
+    .aulas__textos ul li {
+        width: fit-content;
+    }
+
     .footer {
         padding: 1em;
         flex-direction: column;
         gap: 1em;
     }
-    .newsletter{
+
+    .newsletter {
         width: 100%;
     }
-    .newsletter h2{
+
+    .newsletter h2 {
         font-size: 30px;
     }
+
     .aplicativo__wrapper {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)), url('../assets/fotos_aplicativo.png');
@@ -135,6 +184,7 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .aplicativo__imagem img {
         display: none;
     }
@@ -230,6 +280,7 @@
     .aulas__textos__item p {
         font-size: 14px;
     }
+
     /* AULAS */
     .aulas__wrapper {
         margin: 0;
