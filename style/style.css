@@ -456,6 +456,12 @@ header {
     font-size: 16px;
 }
 
+.card__evento .embreve {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .card__evento .embreve p {
     font-size: 16px;
 }
@@ -463,6 +469,10 @@ header {
 .card__evento h2 {
     font-size: 28px;
     font-weight: 700;
+}
+
+.embreve hr{
+    margin: 0;
 }
 
 /* FOOTER */
@@ -489,19 +499,23 @@ header {
 .mapa ul li {
     margin-bottom: 2em;
 }
-.newsletter{
+
+.newsletter {
     width: 35%;
 }
-.newsletter h2{
+
+.newsletter h2 {
     font-size: 48px;
 }
-.newsletter .input{
+
+.newsletter .input {
     width: 100%;
     height: 64px;
     display: flex;
     margin: 3em 0;
 }
-.newsletter input{
+
+.newsletter input {
     width: 350px;
     background: none;
     padding: 0 2em;
@@ -509,7 +523,7 @@ header {
     font-size: 16px;
 }
 
-.newsletter button{
+.newsletter button {
     width: 150px;
     border-radius: 0 12px 12px 0;
     font-size: 16px;
