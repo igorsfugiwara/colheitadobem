@@ -1,3 +1,36 @@
+/* desktop */
+@media (max-width: 1199px) {}
+
+
+/* notebook */
+@media (max-width: 991px) {
+    .header .logo {
+        width: 120px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+
+
+/* tablet */
+@media (max-width: 767px) {
+    
+    .header__menu,
+    .sobre-nos__imagem {
+        display: none;
+    }
+
+    .hamburguer,
+    .parallax_sobre-nos {
+        display: block;
+    }
+
+}
+
 /* celular */
 @media (max-width: 576px) {
     .hamburguer {
@@ -230,33 +263,3 @@
 .input button {
     width: 40%;
 }
-}
-
-/* celular */
-@media (max-width: 767px) {
-
-    .header__menu,
-    .sobre-nos__imagem {
-        display: none;
-    }
-
-    .hamburguer,
-    .parallax_sobre-nos {
-        display: block;
-    }
-
-}
-
-/* celular */
-@media (max-width: 991px) {
-    .header .logo {
-        width: 120px;
-    }
-
-    img {
-        width: 100%;
-    }
-}
-
-/* celular */
-@media (max-width: 1199px) {}
