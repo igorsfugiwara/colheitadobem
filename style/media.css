@@ -128,6 +128,16 @@
     .newsletter h2{
         font-size: 30px;
     }
+    .aplicativo__wrapper {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url('../assets/fotos_aplicativo.png');
+        padding: 1em;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .aplicativo__imagem img {
+        display: none;
+    }
 
 }
 
@@ -202,15 +212,6 @@
     }
 
     /* APLICATIVO */
-
-    .aplicativo__wrapper {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url('../assets/fotos_aplicativo.png');
-        padding: 1em;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .aplicativo {
         width: fit-content;
         color: #FFF;
@@ -229,11 +230,6 @@
     .aulas__textos__item p {
         font-size: 14px;
     }
-
-    .aplicativo__imagem img {
-        display: none;
-    }
-
     /* AULAS */
     .aulas__wrapper {
         margin: 0;
