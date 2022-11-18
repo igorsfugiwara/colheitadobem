@@ -32,7 +32,12 @@
     img {
         width: 100%;
     }
-
+    .card__botao img {
+        width: 40px;
+    }
+    .card__evento h2{
+        font-size: 24px;
+    }
     .play_video img {
         width: fit-content;
     }
@@ -186,12 +191,25 @@
         padding: 1em;
         background-repeat: no-repeat;
         background-size: cover;
+        color: #FFF;
+        justify-content: flex-start;
+    }
+    .aplicativo{
+        width: fit-content;
     }
 
     .aplicativo__imagem img {
         display: none;
     }
-
+    .evento__cards__item {
+        width: fit-content;
+        height: fit-content;
+        margin: 1em;
+        gap: 0.5em;
+        margin: 0.5em;
+    }
+    .card__evento h2 {
+        font-size: 20px;
 }
 
 /* celular */
@@ -379,16 +397,13 @@
     .eventos hr {
         width: 150px;
     }
+    .eventos h1{
+        margin-bottom:0 ;
+    }
 
     .eventos__cards {
         flex-direction: column;
         align-items: center;
-    }
-
-    .evento__cards__item {
-        width: fit-content;
-        height: fit-content;
-        margin: 1em;
     }
 
     .card__data__dia {
@@ -426,11 +441,6 @@
 
     .input button {
         width: 120px;
-    }
-
-    .evento__cards__item {
-        gap: 0.5em;
-        margin: 0.5em;
     }
 
     .card__evento {
