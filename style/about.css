@@ -1,0 +1,101 @@
+
+/* PUBLICO */
+.publico__wrapper{
+    display: flex;
+    justify-content: center;
+}
+.publico {
+    background-color: #000;
+    color: #FFF;
+    display: flex;
+    width: 90%;
+    border-radius: 12px;
+    padding: 2em 0 2em 2em;
+}
+.publico__textos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.publico__textos h3{
+    font-weight: 700;
+}
+.publico__textos h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+.publico__textos p {
+    color: darkgrey;
+}
+.publico__textos ul {
+    display: flex;
+    gap: 10px;
+}
+.publico__textos ul li{
+    display: flex;
+    flex-direction: column;
+}
+.publico__textos ul li p {
+    font-size: 24px;
+    color: #FFF;
+}
+.publico__textos ul li span {
+    font-size: 12px;
+    color: darkgrey;
+}
+.publico__imagem{
+    display: flex;
+}
+.publico__imagem img {
+width: 100%;
+}
+
+
+
+
+
+
+
+/* CONHEÇA O TIME */
+.time__textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 2em 0;
+}
+
+.time__textos h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.time__textos p {
+    text-align: center;
+    width: 80%;
+}
+.time__thumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+.time__thumb ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  
+}
+
+.time__thumb__nome {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.time__thumb__links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}

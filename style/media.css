@@ -48,12 +48,15 @@
     }
 
     .aulas__textos ul {
+        width: fit-content;
         flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
     }
 
     .aulas__textos__item {
         padding: 1.5em 1em;
-        width: 220px;
+        width: 280px;
         height: 300px;
     }
 
