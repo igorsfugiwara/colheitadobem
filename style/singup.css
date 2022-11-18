@@ -1,0 +1,91 @@
+* {
+    font-size: 16px;
+}
+.login__textos a,.login__textos a h3, .login__textos p, .cadastrar p, .cadastrar p a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login__wrapper {
+    display: flex;
+}
+
+.login {
+    padding: 6em 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    width: 45%;
+    background-color:#EFF7F2;
+}
+
+.login__textos{
+  gap: 16px;
+}
+
+.login__textos a {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    gap: 16px;
+
+}
+.login__textos a h3 {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login__imagem {
+    width: 50%;
+    background-image: url('../assets/fotos_cadastro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* FLEX COLUMN */
+.login__email__wrapper, .login__senha__wrapper, .login__usuario__wrapper, .login__textos {
+    display: flex;
+    flex-direction: column;
+}
+.login__email__label, .login__senha__label, .login__usuario__label {
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.login__email__input, .login__senha__input, .login__usuario__input {
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.login__textos button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+.entrar{
+    border: none;
+    border-radius: 6px;
+    background-color: #70C174;
+    color: #FFF;
+
+}
+.esqueci{
+   
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #70C174;
+}
+.cadastrar p {
+    text-align: center;
+}
+.cadastrar p a{
+    color: #70C174;
+}

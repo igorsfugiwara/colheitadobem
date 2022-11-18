@@ -1,4 +1,3 @@
-console.log('olá mundo');
 const menu = document.querySelector(".header__menu");
 const menuItems = document.querySelectorAll(".header__menu__item");
 const hamburger= document.querySelector(".hamburguer");

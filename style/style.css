@@ -103,8 +103,8 @@ header {
     display: flex;
     justify-content: center;
     gap: 5%;
-    padding: 5em 1em 5em 0;
     align-items: center;
+    padding: 5em 1em 5em 0;
 }
 
 .sobre-nos,
@@ -177,10 +177,13 @@ header {
 
 .aplicativo__textos img {
     color: #FFF;
-    background-color: #83D187;
     height: 18px;
     padding: 5px;
     border-radius: 4px;
+}
+.aplicativo__wrapper{
+    background-color: #EFF7F2;
+
 }
 
 .aplicativo__textos li {
