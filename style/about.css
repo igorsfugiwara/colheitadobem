@@ -1,3 +1,59 @@
+/* TEXTOS */
+.textos{
+    display: flex;
+    
+}
+.sobre-nos{
+    width: 100%;
+}
+.textos__descricao{
+    width: 80%;
+}
+.textos p{
+    font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 1em;
+}   
+/* VIDEO */
+.video{
+    display: flex;
+    justify-content: center;
+}
+.video iframe{
+    width: 80%;
+    height: 400px;
+}
+/* MISSAO E VISAO */
+.missao__wrapper{
+    background-color: #EFF7F2;
+    padding: 5em;
+    margin-top: -200px;
+    padding-top: 250px;
+}
+.missao__textos, .visao__textos{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.missao__textos .textos, .visao__textos .textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.missao__textos h3, .visao__textos h3{
+    font-weight: 700;
+}
+.missao__textos .textos h1, .visao__textos .textos h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 1em 0;
+}
+.textos__descricao p{
+    font-weight: 300;
+    font-size: 16px;
+}
+
 /* PUBLICO */
 .publico__wrapper {
     display: flex;
