@@ -1,55 +1,69 @@
 /* TEXTOS */
-.textos{
+.textos {
     display: flex;
-    
+
 }
-.sobre-nos{
+
+.sobre-nos {
     width: 100%;
 }
-.textos__descricao{
+
+.textos__descricao {
     width: 80%;
 }
-.textos p{
+
+.textos p {
     font-size: 20px;
-   font-weight: 700;
-   margin-bottom: 1em;
-}   
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
 /* VIDEO */
-.video{
+.video {
     display: flex;
     justify-content: center;
 }
-.video iframe{
+
+.video iframe {
     width: 80%;
     height: 400px;
 }
+
 /* MISSAO E VISAO */
-.missao__wrapper{
+.missao__wrapper {
     background-color: #EFF7F2;
     padding: 5em;
     margin-top: -200px;
     padding-top: 250px;
 }
-.missao__textos, .visao__textos{
+
+.missao__textos,
+.visao__textos {
     display: flex;
     flex-direction: column;
     width: 300px;
-    
+
 }
-.missao__textos .textos, .visao__textos .textos{
+
+.missao__textos .textos,
+.visao__textos .textos {
     display: flex;
     flex-direction: column;
 }
 
-.missao__textos h3, .visao__textos h3{
+.missao__textos h3,
+.visao__textos h3 {
     font-weight: 700;
 }
-.missao__textos .textos h1, .visao__textos .textos h1 {
+
+.missao__textos .textos h1,
+.visao__textos .textos h1 {
     font-size: 20px;
     font-weight: 700;
     margin: 1em 0;
 }
-.textos__descricao p{
+
+.textos__descricao p {
     font-weight: 300;
     font-size: 16px;
 }
@@ -119,12 +133,6 @@
     width: 100%;
 }
 
-
-
-
-
-
-
 /* CONHEÇA O TIME */
 .time__textos {
     display: flex;
@@ -170,11 +178,35 @@
 }
 
 @media (max-width: 767px) {
+    .sobre-nos__textos .textos {
+        flex-direction: column;
+    }
+
+    .video iframe {
+        border-radius: 12px;
+    }
+    .missao {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+    }
+
+    .missao__wrapper {
+        padding: 3em;
+        padding-top: 250px;
+    }
+
+    .missao__textos {
+        margin-bottom: 1em;
+
+    }
+
     .publico {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
                 rgba(0, 0, 0, 0.5)), url('../assets/publico.png');
-                background-size: cover;
-                background-repeat: no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .publico__textos {
@@ -185,11 +217,13 @@
     .publico__imagem img {
         display: none;
     }
-.time__textos h1{
-    font-size: 38px;
-    margin: 0 0.5em;
-    text-align: center;
-}
+
+    .time__textos h1 {
+        font-size: 38px;
+        margin: 0 0.5em;
+        text-align: center;
+    }
+
     .time__thumb ul li {
         font-size: 18px;
         text-align: center;
@@ -203,17 +237,19 @@
 
     .time__thumb__cargo {
         font-size: 14px;
-   }
+    }
 
-   .eventos__wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   }
-   .eventos{
-    width: fit-content;
-   }
-   .eventos h1 {
-    margin: 0;
-   }
+    .eventos__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eventos {
+        width: fit-content;
+    }
+
+    .eventos h1 {
+        margin: 0;
+    }
 }
